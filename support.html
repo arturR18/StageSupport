@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StageText - Support</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .card {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            margin: 20px 0;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+        }
+        
+        h1 {
+            font-size: 48px;
+            font-weight: 700;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            text-align: center;
+            color: #666;
+            font-size: 18px;
+            margin-bottom: 40px;
+        }
+        
+        h2 {
+            color: #333;
+            font-size: 28px;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #f0f0f0;
+        }
+        
+        .section {
+            margin: 40px 0;
+        }
+        
+        ul, ol {
+            margin-left: 30px;
+            margin-top: 15px;
+        }
+        
+        li {
+            margin: 10px 0;
+            color: #555;
+        }
+        
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        
+        .feature-card {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 12px;
+            border-left: 4px solid #667eea;
+        }
+        
+        .feature-card h3 {
+            color: #667eea;
+            margin-bottom: 10px;
+            font-size: 18px;
+        }
+        
+        .feature-card p {
+            color: #666;
+            font-size: 14px;
+        }
+        
+        .contact-box {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 12px;
+            text-align: center;
+            margin: 30px 0;
+        }
+        
+        .contact-box a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 20px;
+        }
+        
+        .privacy-box {
+            background: #f8f9fa;
+            padding: 25px;
+            border-radius: 12px;
+            margin-top: 20px;
+        }
+        
+        .privacy-box h3 {
+            color: #333;
+            margin-bottom: 15px;
+        }
+        
+        .privacy-box p {
+            color: #666;
+            line-height: 1.8;
+        }
+        
+        .footer {
+            text-align: center;
+            color: white;
+            padding: 20px;
+            margin-top: 40px;
+        }
+        
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 36px;
+            }
+            
+            .card {
+                padding: 25px;
+            }
+            
+            h2 {
+                font-size: 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h1>StageText</h1>
+            <p class="subtitle">Your Personal Teleprompter</p>
+            
+            <div class="section">
+                <h2>About StageText</h2>
+                <p>StageText transforms your iPhone or iPad into a professional teleprompter. Whether you're recording videos, giving presentations, or delivering speeches, StageText helps you maintain eye contact with your audience while reading your script smoothly and naturally.</p>
+            </div>
+            
+            <div class="section">
+                <h2>Key Features</h2>
+                <div class="feature-grid">
+                    <div class="feature-card">
+                        <h3>📜 Scrolling Text</h3>
+                        <p>Smooth, adjustable scrolling with customizable speed and spacing options</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>🎨 Multiple Themes</h3>
+                        <p>Choose from Light, Dark, or Sunny themes to match your environment</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>⏱️ Countdown Timer</h3>
+                        <p>Set a countdown before your presentation begins</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>👆 Gesture Controls</h3>
+                        <p>Pinch to resize text, drag to reposition in landscape mode</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>📱 Smart Orientation</h3>
+                        <p>Edit in portrait, present in landscape automatically</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>🎯 Full Screen Mode</h3>
+                        <p>Distraction-free presentation mode for professional use</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>How to Use StageText</h2>
+                <ol>
+                    <li><strong>Enter Your Script:</strong> Type or paste your text in portrait mode</li>
+                    <li><strong>Customize Settings:</strong> Adjust scrolling speed, spacing, and theme to your preference</li>
+                    <li><strong>Set Timer (Optional):</strong> Add a countdown delay before your presentation starts</li>
+                    <li><strong>Start Presenting:</strong> Rotate to landscape or tap "Full Screen" to begin</li>
+                    <li><strong>Control Your Text:</strong> Use pinch gestures to resize and two-finger drag to reposition</li>
+                </ol>
+            </div>
+            
+            <div class="section">
+                <h2>Tips for Best Results</h2>
+                <ul>
+                    <li>Practice with different scrolling speeds to find your comfortable reading pace</li>
+                    <li>Use the "Tight" spacing for continuous text flow or "Wide" for clear separation</li>
+                    <li>Adjust text size based on your distance from the device</li>
+                    <li>Choose a theme that provides the best contrast for your lighting conditions</li>
+                    <li>Use the countdown timer to prepare yourself before recording</li>
+                </ul>
+            </div>
+            
+            <div class="contact-box">
+                <h2 style="color: white; border: none;">Need Help?</h2>
+                <p style="margin-bottom: 15px;">We're here to help you get the most out of StageText</p>
+                <a href="mailto:support@stagetext.app">support@stagetext.app</a>
+            </div>
+            
+            <div class="section">
+                <h2>Privacy & Data</h2>
+                <div class="privacy-box">
+                    <h3>Your Privacy Matters</h3>
+                    <p>StageText is designed with your privacy in mind. We believe your data belongs to you.</p>
+                    <ul style="margin-top: 15px;">
+                        <li>✅ <strong>No Data Collection:</strong> StageText does not collect any personal information</li>
+                        <li>✅ <strong>Local Storage Only:</strong> All your scripts and settings remain on your device</li>
+                        <li>✅ <strong>No Analytics:</strong> We don't track your usage or behavior</li>
+                        <li>✅ <strong>No Account Required:</strong> Use StageText without creating an account</li>
+                        <li>✅ <strong>No Internet Required:</strong> StageText works completely offline</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>System Requirements</h2>
+                <ul>
+                    <li>iOS 14.0 or later</li>
+                    <li>Compatible with iPhone and iPad</li>
+                    <li>Optimized for all screen sizes</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>© 2025 StageText. All rights reserved.</p>
+            <p style="margin-top: 10px; opacity: 0.8;">Made with ❤️ for presenters, creators, and speakers</p>
+        </div>
+    </div>
+</body>
+</html>
